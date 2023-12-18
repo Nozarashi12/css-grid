@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+
+.text {
+    margin-left: 485px;
+    margin-top: 100px;
+    height: 110px;
+    width: 600px;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.container {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin-left: 480px;
+    margin-bottom: 70px;
+    /* background-color: rgb(185, 185, 105); */
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px);
+
+}
+
+.container div {
+
+    background-color: rgb(101, 152, 197);
+    margin: 5px;
+}
+
+.grid1 {
+    background-image: url(https://i.pinimg.com/236x/a7/4e/68/a74e682fc613a7efae252eb8a02aab20.jpg);
+    background-size: 200px;
+}
+
+.grid2 {
+    background-image: url(https://i.pinimg.com/236x/84/22/f5/8422f566dc67ed8b5a7780735fa6f97f.jpg);
+    background-size: 200px;
+}
+
+.grid3 {
+    background-image: url(https://i.pinimg.com/236x/9f/e6/7b/9fe67bfdd31d8dd257ace3d66fd66fdd.jpg);
+    background-size: 200px;
+    background-position: center;
+}
+
+.grid4 {
+    background-image: url(https://i.pinimg.com/236x/69/bf/6e/69bf6e5f385100b18abd58d58be983be.jpg);
+    background-size: 250px;
+    background-position: center;
+}
+
+.grid5 {
+    background-image: url(https://i.pinimg.com/236x/77/b5/59/77b5593b5d3806d44b78420cb9895918.jpg);
+    background-size: 200px;
+
+    background-size: contain;
+    background-position: center;
+}
+
+.grid6 {
+    background-image: url(https://i.pinimg.com/236x/19/68/ce/1968cebd8d9cc35190a8a2c1dfc916f9.jpg);
+    background-size: 200px;
+
+    background-size: contain;
+    background-position: center;
+}
+
+.grid7 {
+    background-image: url(https://i.pinimg.com/236x/64/5d/ea/645dea81bb93358db5fe8aec74cf3035.jpg);
+    background-size: 200px;
+
+    background-size: contain;
+    background-position: center;
+}
+
+.grid8 {
+    background-image: url(https://i.pinimg.com/236x/9a/cb/bb/9acbbbc49125b83235a1803a28727594.jpg);
+    /* height: 250x; */
+
+    background-size: contain;
+    background-position: center;
+}
+
+.grid9 {
+    background-image: url(https://i.pinimg.com/236x/55/a8/7d/55a87db00aeac8b3de7e7526065a0114.jpg);
+    background-size: 200px;
+
+    background-size: contain;
+    background-position: center;
+}
